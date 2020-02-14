@@ -1,3 +1,13 @@
+## How to start the app
+
+1. npm build(only requires when it is the first time checkout where /build folder doesn't exist)
+2. start server: node server.js
+3. open browser: localhost:8080
+
+- /protected -- if cookie {access: 123} then renders the app, if not shows the unprotected index.html
+- /protected -- always shows the unprotected index.html
+- /\* -- unprotected index.html
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
